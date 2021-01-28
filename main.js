@@ -8,9 +8,9 @@ function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
    }
 const randomNumber = getRandomNumber(100)
-console.log(randomNumber)
 
-//Comprobacion de números
+
+//Check Numbers
 function checkNumbers () {
 let userNumberValue = parseInt(userNumberElement.value);
 
@@ -32,17 +32,17 @@ else if( userNumberValue > randomNumber){
 }
 }
 
+// Take Counter
 let counter = 0
 function takeCounter() {
     counter++;
     counterElement.innerHTML= counter;
 }
 
+// Global Fucntion
 function handleClickResult(ev){
-
 checkNumbers()
 takeCounter()
 }
-
 
 buttonTryElement.addEventListener('click', handleClickResult);

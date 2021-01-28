@@ -1,8 +1,70 @@
 * {
-  border: solid 2px green;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Open sans serif;
+  font-size: 18px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: seagreen;
+  border-radius: 5%;
+  color: seashell;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: springgreen;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 .pista {
-  background-color: red;
-  border: 2px solid;
+  border-radius: 2%;
+  border: 2px solid greenyellow;
+  margin-bottom: 5px;
+  background-color: green;
+  color: seashell;
+}
+
+.text-counter {
+  border: 2px solid green;
+  margin-bottom: 5px;
+  background-color: yellowgreen;
+}
+
+.counter {
+  width: 50px;
+  height: 50px;
+  border: ;
+}
+
+.numbertexto {
+  display: block;
+  text-align: center;
+}
+.button {
+  padding: 10px;
+  background-color: rgb(113, 235, 152);
+  border: 2px solid green;
+  border-radius: 50%;
+  width: 100px;
+  font-size: 14px;
+  box-shadow: 0 1px 10px 0 grey, 0 1px 3px grey;
+}
+
+.input-number {
+  box-shadow: 0 1px 10px 0 grey, 0 1px 3px grey;
+  margin-right: 5px;
 }

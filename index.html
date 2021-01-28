@@ -9,21 +9,24 @@
 </head>
 
 <body>
-    <header>
-        <h1>Adivina el número</h1>
+    <header class="header">
+        <h1>Bienvenido al juego más divertido del mundo :)</h1>
     </header>
 
     <main class="main">
+        <h1>Adivina el número</h1>
         <form classs="form">
-            <label for="number">Introduce en la siguiente casilla un número</label>
+            <label for="number" class="numbertexto">Introduce en la siguiente casilla un número</label>
             <input type="number" class="input-number js-input-number" name="number">
-            <input type="button" value="Prueba aquí" class="js-button">
+            <input type="button" value="Prueba aquí" class="js-button button">
         </form>
 
-        <p class="pista js-pista">Pista: Escribe un número dale a prueba </p>
-        <p class="text-counter js-text-counter"> Lo has intentado <span class="counter js-counter"></span> veces</p>
+        <p class="pista js-pista">Pista: Escribe un número y dale a prueba </p>
+        <p class="text-counter js-text-counter"> Lo has intentado <span class="counter js-counter">0</span> veces
+        </p>
 
     </main>
+
 
 </body>
 <script type="text/javascript" src="main.js"></script>
